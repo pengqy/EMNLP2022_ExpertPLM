@@ -24,7 +24,6 @@ device = accelerator.device
 opt = getattr(config, 'AI_Config')()
 
 tokenizer = BertTokenizer.from_pretrained('./EMNLP2022_ExpertPLM/bert_pretrain/checkpoints/mlm_user_modeling')
-# tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 def now():
     return str(time.strftime('%Y-%m-%d %H:%M:%S'))
 
