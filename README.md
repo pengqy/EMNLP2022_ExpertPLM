@@ -1,2 +1,2 @@
-# EMNLP2022_ExpertPLM
+# ExpertPLM
 The pre-trained weight will be coming soon...
